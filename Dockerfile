@@ -1,3 +1,2 @@
-FROM ubuntu:18.04
-RUN apt-get update -y 
-RUN apt-get install nginx -y
+From nginx 
+COPY . /usr/share/nginx/html/ 
